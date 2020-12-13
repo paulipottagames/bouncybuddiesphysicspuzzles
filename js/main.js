@@ -84,7 +84,9 @@
 	      loop: true,
   			nav: false,
 			autoHeight: true,
-  			items: 1
+			items: 1,
+			autoplay:true,
+			autoplayTimeout:5000
 		});
 
 	};  	
@@ -168,10 +170,10 @@
 	var ssAOS = function() {
 
 		AOS.init( {
-      	offset: 200,
+      	offset: 0,
       	duration: 600,
       	easing: 'ease-in-sine',
-      	delay: 300,
+      	delay: 0,
 			once: true,
 			disable: 'mobile'
     	});
@@ -238,7 +240,7 @@
 	* ------------------------------------------------------ */
 	(function ssInit() {
 
-		ssPreloader();
+		//ssPreloader();
 		ssMobileMenu();
 		ssFitVids();
 		ssOwlCarousel();

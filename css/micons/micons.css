@@ -44,6 +44,7 @@
 }
 .icon-arrow-up:before {
     content: "\e906";
+    color: white
 }
 .icon-artboard:before {
     content: "\e907";
