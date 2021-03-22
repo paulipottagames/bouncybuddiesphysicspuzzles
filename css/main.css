@@ -72,7 +72,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.875;
   color: #c5c5c5;
-  background: #100a8d;
+  background: #0c0871;
   margin: 0;
   padding: 0;
 }
@@ -1940,7 +1940,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  /* box-shadow: 0 0 0 15px #ffffff; */
   z-index: 500;
   position: absolute;
-  top: -12px;
+  top: -18px;
   left: -27px;
   background-image: url("../images/star.png");
   background-position: center;
@@ -2023,10 +2023,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .about-how-content .step::before {
     font-size: 1.6rem;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    top: -9px;
+    height: 64px;
+    width: 64px;
+    line-height: 64px;
+    top: -18px;
     left: 7.5px;
   }
 }
@@ -2488,7 +2488,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1::before {
-  background-color: #2a9038;
+  background-color: #4761e9;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2562,7 +2562,7 @@ footer {
   padding-bottom: 4.2rem;
   font-size: 1.5rem;
   line-height: 2.7rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.30);
 }
 
 footer a,
@@ -2586,9 +2586,9 @@ footer h4 {
 footer h4::before {
   content: "";
   display: block;
-  width: 120px;
+  width: 100%;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.20);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -2797,6 +2797,7 @@ footer ul a:visited {
 @media only screen and (max-width: 768px) {
   .footer-main>.row {
     max-width: 600px;
+    text-align: center;
   }
   .footer-logo {
     margin-left: auto;
@@ -2872,6 +2873,9 @@ footer ul a:visited {
   display: flex;
   margin-bottom: 4px;
   align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.4  ;
 }
 
 /*# sourceMappingURL=main.css.map */
