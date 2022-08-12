@@ -81,3 +81,8 @@ pubmatic.com, 160113, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160974, RESELLER, 5d62403b186f2ace
 tremorhub.com, rwd19-1111760, RESELLER, 1a4e959a1b50034a
 webeyemob.com, 70097, RESELLER
+advlion.com, 5140, RESELLER
+opera.com, pub6794361378752, RESELLER, 55a0c5fd61378de3
+pubmatic.com, 161018, RESELLER, 5d62403b186f2ace
+pubmatic.com, 161344, RESELLER, 5d62403b186f2ace
+videoheroes.tv, 212499, RESELLER, 064bc410192443d8
