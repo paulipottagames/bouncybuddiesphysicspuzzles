@@ -779,9 +779,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
-  color: #FFFFFF;
+  background-color: #ffea01;
+  border-color: #ffea01;
+  color: #f000ff;
 }
 
 .button.button-primary:hover,
@@ -794,8 +794,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #0318ff;
+  border-color: #0318ff;
 }
 
 button.full-width,
@@ -1294,16 +1294,16 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a,
 #header-nav-wrap .header-main-nav li a:visited {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(240, 0, 255, 1);
 }
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-  color: #ffffff;
+  color: #f000ff;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-  color: #ffffff;
+  color: #f000ff;
 }
 
 #header-nav-wrap .cta {
@@ -1443,8 +1443,8 @@ h1.intro-header::before {
 
 .home-content {
   display: table-cell;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   vertical-align: bottom;
 }
 
@@ -1453,7 +1453,7 @@ h1.intro-header::before {
 }
 
 .home-content-left {
-  padding: 15rem 0 12rem 40px;
+  padding: 15rem 0 -10rem 40px;
   position: relative;
   width: 50%;
 }
@@ -1942,7 +1942,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   position: absolute;
   top: -18px;
   left: -27px;
-  background-image: url("../images/star.png");
+  background-image: url("../images/");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -2028,6 +2028,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     line-height: 64px;
     top: -18px;
     left: 7.5px;
+	
   }
 }
 
@@ -2476,15 +2477,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #39b54a;
-  color: #b2fabc;
+  background: #ffea01;
+  color: #ffea01;
   padding-top: 12rem;
   padding-bottom: 12rem;
   text-align: center;
 }
 
 #download h1 {
-  color: #ffffff;
+  color: #f000ff;
 }
 
 #download h1::before {
@@ -2496,7 +2497,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download .lead {
-  color: #b2fabc;
+  color: #61c1fd;
   margin-top: 4.8rem;
 }
 
